@@ -3,7 +3,7 @@
  */
 Ext.define('MobileApp.view.main.binding.bindGrid', {
     extend: 'Ext.tab.Panel',
-
+    xtype:'grid-demo',
     requires: [
         'Ext.grid.Grid',
         'MobileApp.store.bindGridStore',
